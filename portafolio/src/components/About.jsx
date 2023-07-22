@@ -14,7 +14,7 @@ const About = () => {
                 {/* PROFILE IMAGE */}
                 <div className='pt-5 md:pt-0'>
                     <img src='./Profile_img.jpg' className='mx-auto mb-4 w-52 h-52 rounded-full object-cover'/>
-                    {/* <div className='circle absolute xl:top-[135%] xl:left-[42.5%] lg:top-[120%] lg:left-[36.2rem] top-[78.5rem] left-[4.7rem] w-60 h-60 bg-w animate-spin  bg-gradient-to-r from-second to-[#05AE8C] rounded-full -z-10'/> */}
+                    <div className='circle absolute xl:top-[135%] xl:left-[42.5%] lg:top-[120%] lg:left-[36.2rem] top-[78.5rem] left-[4.7rem] w-60 h-60 bg-w animate-spin  bg-gradient-to-r from-second to-[#05AE8C] rounded-full -z-10'/>
                 </div>
 
                 {/* DESCRIPTION */}

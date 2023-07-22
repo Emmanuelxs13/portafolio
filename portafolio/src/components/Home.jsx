@@ -38,7 +38,7 @@ const Home = () => {
 
         {/* BUTTONS - Se descarga el cv*/}
           <div className='flex md:flex-row items-center gap-6'>
-            <a href='../../public/pdf/CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto hover:bg-[#05AE8C]'>
+            <a href='./public/pdf/CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto hover:bg-[#05AE8C]'>
               Descargar CV
             </a>
           

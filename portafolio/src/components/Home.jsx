@@ -34,7 +34,7 @@ const Home = () => {
         </h1>
 
         {/* DESCRIPTION */}
-        <p className='text-gray-500 text-2xl leading-[2.5rem]'>Buenos días, buenas tardes y buenas noches, soy un apasionado desarrollador web fullstack de Colombia, me gusta aprender todo sobre la tecnología.</p>
+        <p className='text-gray-500 text-2xl leading-[2.5rem]'>Soy un apasionado desarrollador web fullstack de Colombia. Como desarrollador full stack, tengo la habilidad de trabajar tanto en la parte del Frontend como en la parte del Backend de una aplicación, lo que me permite crear soluciones completas y efectivas para satisfacer las necesidades de los clientes de principio a fin.</p>
 
         {/* BUTTONS - Se descarga el cv*/}
           <div className='flex md:flex-row items-center gap-6'>

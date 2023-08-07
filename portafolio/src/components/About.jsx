@@ -9,42 +9,40 @@ const About = () => {
         <section id='About' className='mt-[8rem] m-8'>
             <div>
                 {/* TITLE */}
-                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C] mb-[5.5rem] xl:mb-[6rem]'>Sobre Mi</h1>
+                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C] mb-[5.5rem] xl:mb-[2rem]'>Sobre Mi</h1>
 
-                {/* PROFILE IMAGE */}
-                <div className='pt-5 md:pt-0'>
-                    <img src='./Profile_img.jpg' className='mx-auto mb-4 w-52 h-52 rounded-full object-cover'/>
-                    <div className='absolute xl:top-[135%] xl:left-[42.3%] lg:top-[140%] lg:left-[36.2rem] top-[78.5rem] left-[4.7rem] w-60 h-60 bg-white animate-spin  bg-gradient-to-r from-second to-[#05AE8C] rounded-full -z-10'/>
-                </div>
-
-                {/* DESCRIPTION */}
-                <div className='flex flex-col md:flex-row items-center xl:space-x-[5rem] xl:m-2  text-gray-600 '>
-                    <div className='max-w-md py-4 px-4 bg-white shadow-lg rounded-lg my-20  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 duration-300 flex flex-row'>
-                        <p className={`${textStyle} mt-3`}>
-                        Soy un programador con experiencia en desarrollo web, estoy altamente motivado por el desafío de crear soluciones innovadoras para problemas complejos. <b>Html, Css, Sass, SCRUM, JavaScript, TypeScript, Vuejs, Reactjs, Php, Mysql, Git, SDLC y diagramas UMl,</b> he entregado proyectos de calidad en plazos ajustados.
-                        </p>
+                <div className='flex content-center items-center'>
+                    {/* PROFILE IMAGE */}
+                    <div className='pt-5 md:pt-0'>
+                        <img src='./fotoPerfil2.JPG' className='mx-[10%] w-[70%] mb-5 rounded-2xl object-cover' />
+                        <div className='hidden sm:block absolute xl:top-[148%] xl:left-[5%] md:top-[140%] md:left-[36.2rem] w-[24%] h-[66%] bg-gradient-to-r from-second to-[#05AE8C] rounded-3xl -z-10' />
                     </div>
 
-                    <div className='max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 duration-300 flex flex-row'>
-                        <p className={`${textStyle} mt-3`}>
-                        <b>Además, tengo una gran capacidad para colaborar en equipo, comunicar ideas de manera efectiva, aprender nuevas cosas si el proyecto lo requiere, estar abierto a cambios constantemente y mantenerme actualizado con las últimas tendencias en tecnología.</b> 
-                        </p>
-                    </div>
+                    {/* DESCRIPTION */}
+                    <div className='w-full h-full text-gray-600 font-bold'>
+                        <div className='w-[30rem] sm:w-[60rem] sm:py-4 sm:px-4 rounded-lg my-20'>
+                            <p className={`${textStyle} mt-3`}>
+                                Soy un programador con experiencia en desarrollo web, estoy altamente motivado por el desafío de crear soluciones innovadoras para problemas complejos.
+                            </p>
 
-                    
+                            <p className={`${textStyle} mt-1`}>
+                                En mi carrera, he tenido la oportunidad de trabajar en una variedad de proyectos, desde pequeñas aplicaciones web hasta grandes sistemas de software.
+                            </p>
+                            <p className={`${textStyle} mt-1`}>
+                                Estoy enfocado en construir soluciones robustas, escalables y de alta calidad que satisfagan las necesidades de los usuarios y los clientes.<br/>
 
-                    <div className='max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 duration-300  flex flex-row'>
-                        <p className={`${textStyle} mt-3`}>
-                        En mi carrera, he tenido la oportunidad de trabajar en una variedad de proyectos, desde pequeñas aplicaciones web hasta grandes sistemas de software. Como resultado, he desarrollado habilidades en la resolución de problemas, la toma de decisiones y la gestión del tiempo.<b> Estoy enfocado en construir soluciones robustas, escalables y de alta calidad</b> que satisfagan las necesidades de los usuarios y los clientes.
-                        </p>
-                    </div>
+                                En resumen, como programador, mi pasión es trabajar en proyectos desafiantes, donde pueda aplicar mis habilidades y conocimientos para crear soluciones de software que impulsen el éxito de los clientes y de la empresa y que al mismo tiempo me permitan crecer y mejorar como programador y como persona.
+                            </p>
+                        </div>
 
-                    {/* <div className='max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 duration-300'>
+                        {/* <div className='max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 duration-300'>
                         <p className={`${textStyle} mt-3`}>
                             En resumen, como programador, mi pasión es trabajar en proyectos desafiantes, donde pueda aplicar mis habilidades y conocimientos para crear soluciones de software que impulsen el éxito de los clientes y de la empresa y que al mismo tiempo me permitan crecer y mejorar como programador y como persona. Si estás buscando un profesional motivado y dedicado para tu equipo, no dudes en contactarme.
                         </p>
                     </div> */}
+                    </div>
                 </div>
+
             </div>
         </section>
     )

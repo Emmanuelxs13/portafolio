@@ -23,7 +23,7 @@ const Contact = () => {
 
                                                     {/* PHONE */}
                                                     <div className="inline-block rounded-md bg-primary-100 p-4 text-primary">
-                                                    <img width="70" height="70" src="https://img.icons8.com/clouds/100/whatsapp.png" alt="whatsapp"/>
+                                                        <img width="70" height="70" src="https://img.icons8.com/clouds/100/whatsapp.png" alt="whatsapp" />
                                                     </div>
                                                 </div>
                                                 <div className="ml-6 grow">
@@ -50,7 +50,7 @@ const Contact = () => {
                                                     <a href="mailto:emmanuelberriojimenez@gmail.com" target={'_blank'} className="text-neutral-500 dark:text-neutral-200 hover:text-primary">
                                                         emmanuelberriojimenez@gmail.com
                                                     </a>
-                                                   
+
                                                 </div>
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                                             <div className="align-start flex">
                                                 <div className="shrink-0">
                                                     <div className="inline-block rounded-md bg-primary-100 p-4 text-primary">
-                                                    <img width="70" height="70" src="https://img.icons8.com/clouds/100/linkedin.png" alt="linkedin"/>
+                                                        <img width="70" height="70" src="https://img.icons8.com/clouds/100/linkedin.png" alt="linkedin" />
                                                     </div>
                                                 </div>
                                                 <div className="ml-6 grow">
@@ -67,7 +67,7 @@ const Contact = () => {
                                                     <a href='https://www.linkedin.com/in/emmanuel-berrio-jimenez/' target={'_blank'} className="text-neutral-500 dark:text-neutral-200 hover:text-primary">
                                                         Emmanuel Berrio Jimenez
                                                     </a>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -75,7 +75,7 @@ const Contact = () => {
                                             <div className="align-start flex">
                                                 <div className="shrink-0">
                                                     <div className="inline-block rounded-md bg-primary-100 p-4 text-primary">
-                                                    <img width="70" height="70" src="https://img.icons8.com/clouds/100/github.png" alt="github"/>
+                                                        <img width="70" height="70" src="https://img.icons8.com/clouds/100/github.png" alt="github" />
                                                     </div>
                                                 </div>
                                                 <div className="ml-6 grow">
@@ -83,7 +83,7 @@ const Contact = () => {
                                                     <a href='https://github.com/Emmanuelxs13' target={'_blank'} className="text-neutral-500 dark:text-neutral-200  hover:text-primary">
                                                         Emmanuelxs13
                                                     </a>
-                                                   
+
                                                 </div>
                                             </div>
                                         </div>
@@ -92,9 +92,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    <h5 className='mt-8 mx-[27rem]'>© 2023 Emmanuel Berrio Jimenez. Todos los derechos reservados</h5>
                 </section>
             </div>
-
         </div>
     )
 }

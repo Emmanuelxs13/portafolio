@@ -17,19 +17,6 @@ const Home = () => {
               <RiCheckboxBlankCircleFill className='text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content'/> 
             </span>
 
-            {/* <span className="text-primary py-2 px-8 border-8 border-primary relative inline-block animate-word-delay-1 col-span-full row-span-full">FullStack Depveloper
-              <RiCheckboxBlankCircleFill  className='text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content'/>
-            </span>
-
-            <span className="text-primary py-2 px-8 border-8 border-primary relative inline-block animate-word-delay-2 col-span-full row-span-full">FrontEnd Depveloper
-              <RiCheckboxBlankCircleFill  className='text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content'/>
-            </span> */}
           </div>
         </h1>
 
@@ -38,17 +25,17 @@ const Home = () => {
 
         {/* BUTTONS - Se descarga el cv*/}
           <div className='flex md:flex-row items-center gap-6'>
-            <a href='./CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='bg-primary text-white py-2 px-8 rounded-xl text-xl xl:w-auto hover:bg-[#05AE8C]'>
+            <a href='./CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='py-2 px-8 rounded-xl text-xl xl:w-auto relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
               Descargar CV
             </a>
           
             {/* LINKEDIN BUTTON */}
-            <a href='https://www.linkedin.com/in/emmanuel-berrio-jimenez/' target={'_blank'} className='bg-primary text-white py-2 px-2 rounded-xl text-4xl flex items-center hover:bg-[#05AE8C]'>
+            <a href='https://www.linkedin.com/in/emmanuel-berrio-jimenez/' target={'_blank'} className=' py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
               <RiLinkedinBoxFill className='items-center text-center' />
             </a>
 
             {/* GITHUB BUTTON */}
-            <a href='https://github.com/Emmanuelxs13' target={'_blank'} className='bg-primary text-white py-2 px-2 rounded-xl text-4xl flex items-center hover:bg-[#05AE8C]'>
+            <a href='https://github.com/Emmanuelxs13' target={'_blank'} className=' py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
               <RiGithubFill className='items-center text-center'/>
             </a>
           </div>

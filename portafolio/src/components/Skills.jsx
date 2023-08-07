@@ -166,41 +166,41 @@ const Skills = () => {
                 </div>
 
                 {/* IMAGES */}
-                    {/* HTML */}
-                    <img src="./HTML5.png" className='hidden sm:block w-[5rem] ml-[11rem] mt-[11rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* HTML */}
+                <img src="./HTML5.png" className='hidden sm:block w-[5rem] ml-[11rem] mt-[11rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* CSS */}
-                    <img src="./css3.png" className='hidden sm:block w-[3.7rem] -mt-[25rem] ml-[59rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* CSS */}
+                <img src="./css3.png" className='hidden sm:block w-[3.7rem] -mt-[25rem] ml-[59rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* JAVASCRIPT */}
-                    <img src="./JavaScript_logo.png" className='hidden sm:block w-[4.5rem] -mt-[24.5rem] ml-[26rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* JAVASCRIPT */}
+                <img src="./JavaScript_logo.png" className='hidden sm:block w-[4.5rem] -mt-[24.5rem] ml-[26rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* PHP */}
-                    <img src="./php_logo.png" className='hidden sm:block w-[5.5rem] h-[5rem] -mt-[21rem] ml-[74rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* PHP */}
+                <img src="./php_logo.png" className='hidden sm:block w-[5.5rem] h-[5rem] -mt-[21rem] ml-[74rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* MYSQL */}
-                    <img src="./mysql_logo.png" className='hidden sm:block w-[5rem] -mt-[28rem] ml-[7rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* MYSQL */}
+                <img src="./mysql_logo.png" className='hidden sm:block w-[5rem] -mt-[28rem] ml-[7rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* REACTJS */}
-                    <img src="./React_logo.jpg" className='hidden sm:block w-[6.5rem] h-[5rem] -mt-[33rem] ml-[55rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* REACTJS */}
+                <img src="./React_logo.jpg" className='hidden sm:block w-[6.5rem] h-[5rem] -mt-[33rem] ml-[55rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* VUEJS */}
-                    <img src="./Vuejs_logo.png"className='hidden sm:block w-[5rem] -mt-[32.5rem] ml-[23rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* VUEJS */}
+                <img src="./Vuejs_logo.png" className='hidden sm:block w-[5rem] -mt-[32.5rem] ml-[23rem] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* TYPESCRIPT */}
-                    <img src='./Typescript_logo.png' className='hidden sm:block w-[4.7rem] -mt-[32.5rem] ml-[72rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* TYPESCRIPT */}
+                <img src='./Typescript_logo.png' className='hidden sm:block w-[4.7rem] -mt-[32.5rem] ml-[72rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                    {/* TAILWIND */}
-                    <img src='./Sass.png' className='hidden sm:block w-[5rem] -mt-[28rem] ml-[37.5rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover'/>
+                {/* TAILWIND */}
+                <img src='./Sass.png' className='hidden sm:block w-[5rem] -mt-[28rem] ml-[37.5rem] rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 object-cover' />
 
-                
-                    {/* PERSON */}
-                <img src="./Thinking.jpg" className='hidden sm:block w-[20rem] ml-[57rem] -mt-[20rem] -z-50'/>
+
+                {/* PERSON */}
+                <img src="./Thinking.jpg" className='hidden sm:block w-[20rem] ml-[57rem] -mt-[20rem] -z-50' />
 
             </div>
 
             <div>
-    
+
                 <div className="container my-24 mx-auto md:px-6">
 
                     <section className="mb-32 text-center">
@@ -210,7 +210,7 @@ const Skills = () => {
                                     ¿Por qué deberías contratarme?
                                 </h2>
                                 <p className="mb-16 text-neutral-500 dark:text-gray-700">
-                                    Como programador, mi pasión es trabajar en proyectos desafiantes, donde pueda aplicar mis habilidades y conocimientos para crear soluciones de software que impulsen el éxito de los clientes y de la empresa y que al mismo tiempo me permitan crecer y mejorar como programador y como persona.
+                                    Soy un profesional altamente motivado y orientado a resultados. A lo largo de mi carrera, he sido reconocido por mi capacidad para colaborar en equipos eficientes y alcanzar objetivos ambiciosos. Estoy seguro de que mis habilidades técnicas y mi pasión por la mejora continua serán un activo valioso para su empresa, contribuyendo a un ambiente productivo y a un crecimiento sostenible.
                                 </p>
                             </div>
                         </div>

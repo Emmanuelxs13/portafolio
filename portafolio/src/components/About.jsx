@@ -15,7 +15,7 @@ const About = () => {
                     {/* PROFILE IMAGE */}
                     <div className='pt-5 md:pt-0'>
                         <img src='./fotoPerfil2.JPG' className='mx-[10%] w-[70%] mb-5 rounded-2xl object-cover' />
-                        <div className='hidden sm:block absolute xl:top-[148%] xl:left-[5%] md:top-[140%] md:left-[36.2rem] w-[24%] h-[66%] bg-gradient-to-r from-second to-[#05AE8C] rounded-3xl -z-10' />
+                        <div className='hidden xl:block absolute xl:top-[148%] xl:left-[5%] md:top-[140%] md:left-[36.2rem] w-[24%] h-[66%] bg-gradient-to-r from-second to-[#05AE8C] rounded-3xl -z-10' />
                     </div>
 
                     {/* DESCRIPTION */}

@@ -16,3 +16,11 @@ export default {
   },
   plugins: [],
 }
+// https://daisyui.com/docs/themes/
+module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: ["light"]
+  },
+};

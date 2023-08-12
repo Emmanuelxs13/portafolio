@@ -6,7 +6,7 @@ const Skills = () => {
         <section id='Skills' className='md:p-8'>
             <div className='mb-[3rem]'>
                 {/* TITLE */}
-                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C]'>Skills-Habilidades</h1>
+                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] bg-[#05AE8C]'>Skills-Habilidades</h1>
             </div>
 
             <div className='p-4 md:p-20 grid grid-cols-1 md:grid-cols-2'>
@@ -117,12 +117,12 @@ const Skills = () => {
                         </div>
                         <div className="text-right">
                             <span className="text-xm font-semibold inline-block text-[#4DB6AC]">
-                                55%
+                                60%
                             </span>
                         </div>
                     </div>
                     <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-[#B2EBF2]">
-                        <div style={{ width: "55%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#26A69A]"></div>
+                        <div style={{ width: "60%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#26A69A]"></div>
                     </div>
 
                     <div className="flex mb-2 items-center justify-between">
@@ -136,12 +136,12 @@ const Skills = () => {
                         </div>
                         <div className="text-right">
                             <span className="text-xm font-semibold inline-block text-[#4DB6AC]">
-                                45%
+                                55%
                             </span>
                         </div>
                     </div>
                     <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-[#B2EBF2]">
-                        <div style={{ width: "45%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#26A69A]"></div>
+                        <div style={{ width: "55%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-[#26A69A]"></div>
                     </div>
 
                     <div className="flex mb-2 items-center justify-between">
@@ -206,7 +206,7 @@ const Skills = () => {
                     <section className="mb-32 text-center">
                         <div className="flex justify-center">
                             <div className="max-w-[700px] text-center">
-                                <h2 className="mb-6 text-center text-3xl font-bold justify-center content-center text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C]">
+                                <h2 className="mb-6 text-center text-3xl font-bold justify-center content-center text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] bg-[#05AE8C]">
                                     ¿Por qué deberías contratarme?
                                 </h2>
                                 <p className="mb-16 text-neutral-500 dark:text-gray-700">
@@ -217,7 +217,7 @@ const Skills = () => {
 
                         <div className="grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12">
                             <div className="mb-12 lg:mb-0">
-                                <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-xl">
+                                <div className="mb-6 inline-block rounded-full bg-accent-100 p-4 text-primary shadow-xl">
                                     <img width="50" height="50" src="https://img.icons8.com/external-soft-fill-juicy-fish/60/external-happy-mental-health-soft-fill-soft-fill-juicy-fish-2.png" alt="external-happy-mental-health-soft-fill-soft-fill-juicy-fish-2" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold">Actitud positiva</h5>
@@ -227,7 +227,7 @@ const Skills = () => {
                             </div>
 
                             <div className="mb-12 lg:mb-0">
-                                <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-xl">
+                                <div className="mb-6 inline-block rounded-full bg-accent-100 p-4 text-primary shadow-xl">
                                     <img width="50" height="50" src="https://img.icons8.com/dotty/80/people-working-together.png" alt="people-working-together" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold">Trabajo en equipo</h5>
@@ -237,7 +237,7 @@ const Skills = () => {
                             </div>
 
                             <div className="mb-12 md:mb-0">
-                                <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-xl">
+                                <div className="mb-6 inline-block rounded-full bg-accent-100 p-4 text-primary shadow-xl">
                                     <img width="50" height="50" src="https://img.icons8.com/dotty/80/teamwork.png" alt="teamwork" />
 
                                 </div>
@@ -247,7 +247,7 @@ const Skills = () => {
                                 </p>
                             </div>
                             <div className="mb-12 md:mb-0">
-                                <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-xl">
+                                <div className="mb-6 inline-block rounded-full bg-accent-100 p-4 text-primary shadow-xl">
                                     <img width="50" height="50" src="https://img.icons8.com/ios/50/salute.png" alt="salute" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold">Respetuoso</h5>

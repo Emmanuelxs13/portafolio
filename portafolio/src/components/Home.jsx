@@ -10,11 +10,11 @@ const Home = () => {
         <h1 className='text-5xl xl:text-7xl font-bold xl:leading-[7.5rem]'>
           Emmanuel Berrio <br/>
           <div className=''>    
-            <span className='text-primary py-2 px-8 border-8 border-primary relative inline-block '>Software Depveloper              
-              <RiCheckboxBlankCircleFill  className='text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content'/>
-              <RiCheckboxBlankCircleFill className='text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content'/> 
+            <span className='text-[#26A69A] py-2 px-8 border-8 border-[#26A69A] relative inline-block '>Software Developer              
+              <RiCheckboxBlankCircleFill  className='text-white text-base absolute -left-5 -top-5 p-2 bg-[#26A69A] rounded-full box-content'/>
+              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -top-5 p-2 bg-[#26A69A] rounded-full box-content'/>
+              <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -bottom-5 p-2 bg-[#26A69A] rounded-full box-content'/>
+              <RiCheckboxBlankCircleFill className='text-white text-base absolute -left-5 -bottom-5 p-2 bg-[#26A69A] rounded-full box-content'/> 
             </span>
 
           </div>
@@ -25,17 +25,17 @@ const Home = () => {
 
         {/* BUTTONS - Se descarga el cv*/}
           <div className='flex md:flex-row items-center gap-6'>
-            <a href='./CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='py-2 px-8 rounded-xl text-xl xl:w-auto relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
+            <a href='./CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='py-2 px-8 rounded-xl text-xl xl:w-auto relative  text-center btn btn-accent btn-outline'>
               Descargar CV
             </a>
           
             {/* LINKEDIN BUTTON */}
-            <a href='https://www.linkedin.com/in/emmanuel-berrio-jimenez/' target={'_blank'} className=' py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
+            <a href='https://www.linkedin.com/in/emmanuel-berrio-jimenez/' target={'_blank'} className='py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center btn btn-accent btn-outline'>
               <RiLinkedinBoxFill className='items-center text-center' />
             </a>
 
             {/* GITHUB BUTTON */}
-            <a href='https://github.com/Emmanuelxs13' target={'_blank'} className=' py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center text-primary border border-primary overflow-hidden transition-all ease-in-out before:absolute before:bg-primary before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:-z-10 before:transition-all before:duration-500 before:w-full before:h-0 before:rotate-45 hover:before:h-[380%] hover:text-white'>
+            <a href='https://github.com/Emmanuelxs13' target={'_blank'} className='py-2 px-2 rounded-xl text-4xl flex items-center relative  text-center btn btn-accent btn-outline'>
               <RiGithubFill className='items-center text-center'/>
             </a>
           </div>
@@ -48,7 +48,7 @@ const Home = () => {
         <img src='./fotoPerfil.JPG' className='w-56 h-56 md:w-96 md:h-96 object-cover rounded-full'/>
 
         {/* BACKGROUND CIRCLE */}
-        <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[300px] h-[300px] md:w-[480px] md:h-[480px] bg-second border-[25px] border-primary rounded-full -z-10'></div>
+        <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[300px] h-[300px] md:w-[480px] md:h-[480px] bg-[#ACDFD4] border-[25px] border-[#26A69A] rounded-full -z-10'></div>
 
         {/* LOGOS */}
         

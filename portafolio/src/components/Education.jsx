@@ -5,7 +5,7 @@ const Education = () => {
         <section id='Estudios' className='p-14'>
             <div className='mb-[3rem]'>
                 {/* TITLE */}
-                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C]'>Estudios Académicos</h1>
+                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] to-[#05AE8C]'>Estudios Académicos</h1>
             </div>
 
             <div>
@@ -52,7 +52,7 @@ const Education = () => {
                                 <p className="mb-3 text-gray-600">
                                     En este curso desarrollé y sigo mejorando mis habilidades lingüísticas en el idioma inglés, logrando así poder comprender y saber expresar mis ideas con claridad, leyendo y escuchando de manera eficaz para la correcta comunicación en este lenguaje.
                                 </p>
-                                <a href='./EF SET Certificate.pdf' target={'_blank'} className='bg-primary text-white py-1 px-5 rounded-xl text-xl xl:w-auto hover:bg-[#05AE8C]'>EF SET Certifacate
+                                <a href='./EF SET Certificate.pdf' target={'_blank'} className='py-1 px-5 rounded-xl text-xl xl:w-auto btn btn-accent btn-outline'>EF SET Certifacate
                                 </a>
                             </div>
                         </div>

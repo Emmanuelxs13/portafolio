@@ -6,7 +6,7 @@ const Projects = () => {
     <section id='Projects' className='p-8'>
       <div className='mb-[6rem]'>
         {/* TITLE */}
-        <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-second to-[#05AE8C] mb-5'>Proyectos</h1>
+        <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] bg-[#05AE8C] mb-5'>Proyectos</h1>
 
         <p className='text-center justify-center content-center text-xl text-gray-600'>Aquí encontrás algunos de los proyectos que he realizado</p>
       </div>

@@ -1,15 +1,33 @@
-import React from 'react'
+import React, { useState} from 'react'
+import { useInView } from 'react-intersection-observer';
 
 
-const About = () => {
+const About = ({ animationClasses }) => {
+
+    const [ref, inView] = useInView({
+        /* triggerOnce: true, */  /* Solo activar una vez */
+        threshold: 1, // Umbral de intersección (50% visible)
+    });
+
+    const [animationActivated, setAnimationActivated] = useState(false);
+
+    const handleInView = () => {
+        if (inView && !animationActivated) {
+            setAnimationActivated(true);
+        }
+    };
 
     const textStyle = 'text-xl leading-[2.5rem]';
 
     return (
-        <section id='About' className='mt-[8rem] m-8'>
+        <section 
+        id='About' 
+        ref={ref} 
+        className={`mt-[8rem] m-8 `}
+        onTransitionEnd={handleInView}>
             <div>
                 {/* TITLE */}
-                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] bg-[#26A69A] mb-[5.5rem] xl:mb-[2rem]'>Sobre Mi</h1>
+                <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] bg-[#26A69A] '>Sobre Mi</h1>
 
                 <div className='flex content-center items-center'>
                     {/* PROFILE IMAGE */}
@@ -28,7 +46,7 @@ const About = () => {
                                 En mi carrera, he tenido la oportunidad de trabajar en una variedad de proyectos, desde pequeñas aplicaciones web hasta grandes sistemas de software.
                             </p>
                             <p className={`${textStyle} mt-1 mr-[4rem]`}>
-                                Estoy enfocado en construir soluciones robustas, escalables y de alta calidad que satisfagan las necesidades de los usuarios y los clientes.<br/>
+                                Estoy enfocado en construir soluciones robustas, escalables y de alta calidad que satisfagan las necesidades de los usuarios y los clientes.<br />
 
                                 En resumen, como programador, mi pasión es trabajar en proyectos desafiantes, donde pueda aplicar mis habilidades y conocimientos para crear soluciones de software que impulsen el éxito de los clientes y de la empresa y que al mismo tiempo me permitan crecer y mejorar como programador y como persona.
                             </p>

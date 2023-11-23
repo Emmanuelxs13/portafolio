@@ -16,10 +16,13 @@ export default {
   },
   plugins: [],
 }
-// https://daisyui.com/docs/themes/
+// Librerias
+// DaisyUi:https://daisyui.com/docs/themes/ - Tailwind_Animated:https://www.tailwindcss-animated.com/
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  plugins: [require('daisyui')],
+  plugins: [
+    require('daisyui'),
+    require('tailwindcss-animated')], 
   daisyui: {
     themes: ["light"]
   },

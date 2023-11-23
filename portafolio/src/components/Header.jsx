@@ -12,7 +12,7 @@ const Header = () => {
   const [showMenu, setShowMenu ] = useState(false);
 
   return (
-  <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 sticky top-0  bg-white">
+  <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 sticky top-0 bg-white animate-fade-down animate-once animate-ease-in-out">
     <div className="xl:w-1/6 text-center -mt-4">
         <a href="#" className="text-2xl font-bold relative p-1 bg-white">
           Emmanuel Berrio<span className="text-accent text-5xl">.</span>{" "}

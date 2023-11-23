@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useState} from 'react'
+import { useInView } from 'react-intersection-observer';
 
-const Education = () => {
+const Education = ({ animationClasses }) => {
+
+    const [ref, inView] = useInView({
+        /* triggerOnce: true, */  /* Solo activar una vez */
+        threshold: 1, // Umbral de intersección (50% visible)
+    });
+
+    const [animationActivated, setAnimationActivated] = useState(false);
+
+    const handleInView = () => {
+        if (inView && !animationActivated) {
+            setAnimationActivated(true);
+        }
+    };
+
     return (
-        <section id='Estudios' className='p-14'>
+        <section 
+        id='Estudios' 
+        ref={ref} 
+        className={`p-14 ${inView ? animationClasses : 'animate-fade-down animate-duration-[10000ms] transition-all'}`}>
             <div className='mb-[3rem]'>
                 {/* TITLE */}
                 <h1 className='text-5xl text-center justify-center content-center font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ACDFD4] to-[#05AE8C]'>Estudios Académicos</h1>

@@ -6,11 +6,11 @@ const Home = () => {
   return <section id='Home' className='min-h-[90vh] grid grid-cols-1 xl:grid-cols-8 gap-8 md:gap-0 '>
     {/* INFORMATION */}
     <div className='md:col-span-5 flex items-center justify-center p-8 xl:p-16'>
-      <div className='flex flex-col gap-8 '>
-        <h1 className='text-5xl xl:text-7xl font-bold xl:leading-[7.5rem]'>
+      <div className='flex flex-col gap-8'>
+        <h1 className='text-5xl xl:text-7xl font-bold xl:leading-[7.5rem] animate-fade-down'>
           Emmanuel Berrio <br/>
           <div className=''>    
-            <span className='text-[#26A69A] py-2 px-8 border-8 border-[#26A69A] relative inline-block '>Software Developer              
+            <span className='text-[#26A69A] py-2 px-8 border-8 border-[#26A69A] relative inline-block'>Software Developer              
               <RiCheckboxBlankCircleFill  className='text-white text-base absolute -left-5 -top-5 p-2 bg-[#26A69A] rounded-full box-content'/>
               <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -top-5 p-2 bg-[#26A69A] rounded-full box-content'/>
               <RiCheckboxBlankCircleFill className='text-white text-base absolute -right-5 -bottom-5 p-2 bg-[#26A69A] rounded-full box-content'/>
@@ -21,11 +21,11 @@ const Home = () => {
         </h1>
 
         {/* DESCRIPTION */}
-        <p className='text-gray-500 text-2xl leading-[2.5rem]'>Soy un apasionado desarrollador web fullstack de Colombia. Como desarrollador
+        <p className='text-gray-500 text-2xl leading-[2.5rem] animate-fade-right'>Soy un apasionado desarrollador web fullstack de Colombia. Como desarrollador
         tengo la habilidad de trabajar tanto en la parte del Frontend como en la parte del Backend de una aplicación, lo que me permite crear soluciones completas y efectivas para satisfacer las necesidades de los clientes de principio a fin.</p>
 
         {/* BUTTONS - Se descarga el cv*/}
-          <div className='flex md:flex-row items-center gap-6'>
+          <div className='flex md:flex-row items-center gap-6 animate-fade-right'>
             <a href='./CV-Emmanuel Berrio Jimenez.pdf' target={'_blank'} className='py-2 px-8 rounded-xl text-xl xl:w-auto relative  text-center btn btn-accent btn-outline'>
               Descargar CV
             </a>
@@ -44,7 +44,7 @@ const Home = () => {
     </div>
 
     {/* PROFILE IMAGE */}
-    <div className='md:col-span-3 flex items-center justify-center relative'>
+    <div className='md:col-span-3 flex items-center justify-center relative animate-fade-down animate-ease-linear'>
       <div>
         <img src='./fotoPerfil.JPG' className='w-56 h-56 md:w-96 md:h-96 object-cover rounded-full'/>
 
